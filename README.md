@@ -12,7 +12,7 @@ Open project in your preference IDE and run project.
 
 Based in URL `http://localhost:8080` and URI `http://localhost:8080/api/v1`
 
-####XML
+###XML
 
 #####GET
 
@@ -49,7 +49,7 @@ curl -v -H "Accept: application/xml" -H "Content-Type: application/xml" -X PUT h
 ```
 ---
 
-####JSON
+###JSON
 
 #####GET
 ```bash
