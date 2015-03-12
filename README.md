@@ -85,10 +85,3 @@ curl -v -H "Accept: application/json" -H "Content-Type: application/json" -X POS
 curl -v -H "Accept: application/json" -H "Content-Type: application/json" -X PUT http://localhost:8080/api/v1/bier/3 -d '{"brewery":"Hi-Wire Brewing","id":"3","name":"Hi-Wire Lager","type":"ALE"}'
 ```
 ---
-
-
-
-
-
-
-
