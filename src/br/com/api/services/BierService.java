@@ -25,16 +25,19 @@ public class BierService {
 		
 	// Init list for tests	
 	private static final List<Bier> biers = new ArrayList<Bier>() 
-			{ private static final long serialVersionUID = 1L;	{
-				add(new Bier(1, "Extra Special Pig ESB", "Pig Pounder Brewery", Bier.Type.PALE_ALE));
-				add(new Bier(2, "Rickshaw American IPA", "Crank Arm Brewing Co", Bier.Type.LIGHT_HYBRID_BEER));	
-				add(new Bier(3, "Hi-Wire Lager", "Hi-Wire Brewing", Bier.Type.PILSNER));
-			}};
+		{ private static final long serialVersionUID = 1L;	{
+			add(new Bier(1, "Extra Special Pig ESB", 
+				"Pig Pounder Brewery", Bier.Type.PALE_ALE));
+			add(new Bier(2, "Rickshaw American IPA",
+				"Crank Arm Brewing Co", Bier.Type.LIGHT_HYBRID_BEER));	
+			add(new Bier(3, "Hi-Wire Lager", 
+				"Hi-Wire Brewing", Bier.Type.PILSNER));
+		}};
 	
 	@GET	
-    public List<Bier> getBires() {		
-        return biers;        
-    }	
+    	public List<Bier> getBires() {		
+        	return biers;        
+    	}	
 	
 	@GET
 	@Path("{id}")
